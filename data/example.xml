@@ -1,0 +1,8 @@
+<html lang="en">
+	<body>
+		<attribute name="foo" value="bar"/>
+		hello world
+		<value-of select="foo" />
+		<div class="sampe">baz</div>
+	</body>
+</html>

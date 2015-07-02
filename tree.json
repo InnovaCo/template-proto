@@ -1,0 +1,57 @@
+{
+	"name": ":root",
+	"type": "root",
+	"children": [
+		{
+			"name": "html",
+			"type": "element",
+			"attributes": [
+				{
+					"name": "lang",
+					"value": "en",
+					"type": "attribute"
+				}
+			],
+			"children": [
+				{
+					"type": "text",
+					"value": "Hello world"
+				},
+				{
+					"type": "element",
+					"name": "head",
+					"children": [
+						{
+							"type": "element",
+							"name": "attribute",
+							"attributes": [
+								{
+									"name": "name",
+									"value": "foo"
+								},
+								{
+									"name": "value",
+									"value": "bar"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "element",
+					"name": "value-of",
+					"attributes": [
+						{
+							"name": "select",
+							"value": "foo"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "other",
+			"type": "element"
+		}
+	]
+}
