@@ -1,6 +1,6 @@
 'use strict';
 
-var Context = require('./lib/context');
+var AbstractContext = require('./lib/context/abstract');
 var parseXml = require('./lib/parse-xml').parseFile;
 
 class JSNode {
@@ -24,12 +24,11 @@ class JSNode {
 	}
 }
 
-class JSContext extends Context {
+class JSContext extends AbstractContext {
 	constructor() {
-		super({}, {ownerDocument: null});
+		super();
 		this.output = new JSNode();
 		this.outputCtx = this.output;
-		this.registerhandler('script', scriptHandler);
 	}
 
 	pushElement(name, attributes) {
