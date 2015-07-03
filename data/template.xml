@@ -1,0 +1,16 @@
+<stylesheet>
+	<template>
+		<html>
+			<head></head>
+			<body>
+				<apply-template select="/model/p2" name="foo"/>
+			</body>
+		</html>
+	</template>
+
+	<template name="foo">
+		<div title="{@title}">
+			<value-of select="."/>
+		</div>
+	</template>
+</stylesheet>
