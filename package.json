@@ -1,6 +1,6 @@
 {
   "name": "template-proto",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Template prototype",
   "main": "index.js",
   "scripts": {
