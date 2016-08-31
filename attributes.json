@@ -1,0 +1,11 @@
+{
+    "noTransform": [
+    	"http-equiv",
+    	"accept-charset"
+    ],
+
+    "mapping": {
+    	"class": "className",
+    	"viewBox": "viewBox"
+    }
+}
